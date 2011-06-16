@@ -1,0 +1,8 @@
+.DS_Store
+*.esproj
+archive
+private
+node_modules
+test/node_modules
+test/log
+

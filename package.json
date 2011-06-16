@@ -1,0 +1,35 @@
+{ 
+"author": {
+	"name": "Stuart Malin", 
+	"email": "stuart@yellowhelium.com",
+	"url": "http://yellowhelium.com/"
+},
+"bugs" : {
+	"url": "http://github.com/zhami/helium/issues"
+},
+"dependencies": {
+	"connect": "1.3.x",
+	"dnode": "0.7.2",
+	"eyes": "0.1.6",
+	"jquery-browserify": "1.6.1"
+},
+"description": "Engine for Helium system",
+"directories" : {
+	"lib" : "./lib"
+},
+"engines": {"node": "0.4.x"},
+"keywords": ["helium", "framework"],
+"licenses":[
+	{
+		"type":"MIT",
+		"url":"http://github.com/zhami/helium/raw/master/LICENSE"
+	}
+],
+"main": "./index",
+"name": "helium",
+"repository": {
+	"type": "url",
+	"url": "http://github.com/zhami/helium"
+},
+"version": "0.0.1-1"
+}
