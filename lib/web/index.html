@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DaNaDu = Entropy+Helium</title> 
+<script src="/browserify.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var APP = {
+		loaded: 0
+	};
+    window.onload = function () {
+		APP.loaded = 1;
+    };
+</script>
+</head>
+<body>
+    The cat says <span id="says">?</span>.
+	<div id="messages"></div>
+	<input type="text" id="text-input">
+	<input type="button" value="Send" id="send-button">
+</body>
+</html>
